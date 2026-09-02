@@ -1,0 +1,5 @@
+.env
+.impeccable/
+regions.json
+node_modules/
+*.log

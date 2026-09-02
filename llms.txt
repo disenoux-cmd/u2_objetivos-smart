@@ -1,0 +1,5 @@
+# Objetivos SMART
+
+Recurso Educativo Digital interactivo en español para comprender y analizar objetivos de aprendizaje específicos, medibles, alcanzables, relevantes y temporalizados.
+
+- [Abrir el recurso](./index.html)

@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#082653">
+  <meta name="description" content="Recurso interactivo para comprender, analizar y reconocer objetivos de aprendizaje SMART.">
+  <title>Objetivos SMART | Enseña por Colombia</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Barlow+Condensed:wght@600;700;800&family=Londrina+Outline&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <!--
+  THESIS: Formular una meta es trazar un plano verificable; se rechaza la secuencia de diapositivas y tarjetas genéricas.
+  OWN-WORLD: Papel técnico azul, tinta naval, naranja de revisión, capas translúcidas y controles como instrumentos de trazado.
+  STORY: El Eco distingue, descompone, analiza, conecta y comprueba cómo SMART protege el tiempo de aprendizaje.
+  FIRST VIEWPORT: Frase-plano central, capas SMART apiladas a la izquierda, anotaciones a la derecha y acción al centro inferior.
+  FORM: Mesa de trazado pedagógico, dirección propia asignada 4, seed 4b974ba4.
+  FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, and DESIGN.md
+  -->
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="Volver al inicio">
+      <img src="docs/excolombia.png" alt="Enseña por Colombia" width="170" height="80">
+    </a>
+    <p class="resource-title">Objetivos SMART</p>
+    <nav class="route-progress" aria-label="Progreso del recorrido">
+      <a href="#fundamento" data-route="fundamento"><span>1</span><em>Fundamento</em></a>
+      <a href="#smart" data-route="smart"><span>2</span><em>SMART</em></a>
+      <a href="#ejemplos" data-route="ejemplos"><span>3</span><em>Ejemplos</em></a>
+      <a href="#tiempo" data-route="tiempo"><span>4</span><em>Tiempo</em></a>
+      <a href="#desafio" data-route="desafio"><span>5</span><em>Desafío</em></a>
+    </nav>
+  </header>
+
+  <main id="contenido">
+    <section class="hero blueprint" id="inicio" aria-labelledby="hero-title">
+      <div class="layer-tabs" role="group" aria-label="Capas del objetivo SMART">
+        <button class="layer-tab s is-active" aria-pressed="true" aria-controls="layer-detail" data-smart="s"><b>S</b><span>Específico</span></button>
+        <button class="layer-tab m" aria-pressed="false" aria-controls="layer-detail" data-smart="m"><b>M</b><span>Medible</span></button>
+        <button class="layer-tab a" aria-pressed="false" aria-controls="layer-detail" data-smart="a"><b>A</b><span>Alcanzable</span></button>
+        <button class="layer-tab r" aria-pressed="false" aria-controls="layer-detail" data-smart="r"><b>R</b><span>Relevante</span></button>
+        <button class="layer-tab t" aria-pressed="false" aria-controls="layer-detail" data-smart="t"><b>T</b><span>Temporalizado</span></button>
+      </div>
+
+      <div class="hero-copy">
+        <h1 id="hero-title">Una meta clara<br>protege el tiempo<br>para aprender</h1>
+        <p>Diseñar una clase es proyectar un camino intencionado para que el aprendizaje suceda.</p>
+      </div>
+
+      <aside class="annotation-sheet" id="layer-detail" aria-live="polite">
+        <p class="sheet-label">Anotación activa</p>
+        <div class="annotation-heading"><span data-detail-letter>S</span><h2 data-detail-title>Específico</h2></div>
+        <p data-detail-copy>Define con precisión qué lograrán las y los estudiantes, sin dobles interpretaciones.</p>
+        <dl>
+          <div><dt>Pregunta guía</dt><dd data-detail-question>¿Quién, qué, dónde, cuándo y por qué?</dd></div>
+          <div><dt>Señal visible</dt><dd data-detail-signal>La acción esperada se entiende de una sola manera.</dd></div>
+        </dl>
+      </aside>
+
+      <a class="primary-action" href="#fundamento">
+        <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 19 9 5l2 6 6 2-13 6Zm7-8 8-8m-3 0h3v3"/></svg>
+        Empezar a trazar la ruta
+        <span aria-hidden="true">→</span>
+      </a>
+      <div class="measure horizontal" aria-hidden="true"><span>claridad</span></div>
+      <div class="measure vertical" aria-hidden="true"><span>evidencia</span></div>
+    </section>
+
+    <section class="foundation section-shell" id="fundamento" data-section="fundamento" aria-labelledby="foundation-title">
+      <div class="section-intro">
+        <h2 id="foundation-title">Primero, define qué debe cambiar</h2>
+        <p>Un objetivo de aprendizaje comunica los conocimientos, habilidades y conductas que el estudiantado debe lograr y demostrar al finalizar una experiencia educativa.</p>
+        <blockquote>“Describe de manera específica conocimientos, habilidades y conductas que los educadores establecen para sus estudiantes”.<cite>Marisol Sirhan, Pontificia Universidad Católica de Chile</cite></blockquote>
+      </div>
+
+      <div class="comparison-board">
+        <div class="comparison-switch" role="group" aria-label="Comparar conocimiento y habilidad">
+          <button class="is-active" aria-pressed="true" data-compare="habilidad">Habilidad <small>El saber cómo</small></button>
+          <button aria-pressed="false" data-compare="conocimiento">Conocimiento <small>El contenido</small></button>
+        </div>
+        <div class="comparison-content" aria-live="polite">
+          <div class="comparison-definition">
+            <p class="draft-label" data-compare-label>Habilidad / skill</p>
+            <h3 data-compare-title>El conocimiento puesto en acción</h3>
+            <p data-compare-copy>Son acciones prácticas que las y los estudiantes realizan al usar activamente sus conocimientos en situaciones reales o simuladas.</p>
+          </div>
+          <div class="subject-examples" data-compare-examples>
+            <article><span>Inglés</span><p>Utilizar preposiciones de lugar en una conversación con apoyo de un mapa.</p></article>
+            <article><span>Matemáticas</span><p>Medir la longitud de objetos del entorno con herramientas estándar.</p></article>
+            <article><span>Sociales</span><p>Ubicar acontecimientos de un periodo en una línea de tiempo.</p></article>
+          </div>
+          <figure class="comparison-figure">
+            <img src="assets/plates/skill-drawing.png" alt="Dibujo técnico de una mano que representa la habilidad de hacer.">
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="smart-lab section-shell blueprint" id="smart" data-section="smart" aria-labelledby="smart-title">
+      <div class="section-intro compact">
+        <h2 id="smart-title">Cinco capas. Una meta sin ambigüedades.</h2>
+        <p>George Doran formuló este marco en 1981. Abre cada capa para inspeccionar el criterio y su prueba de calidad.</p>
+      </div>
+      <div class="smart-stencil" aria-label="Explorador de criterios SMART">
+        <div class="smart-letters" role="group" aria-label="Criterios SMART">
+          <button class="s is-active" aria-pressed="true" data-smart-panel="s"><span>S</span><b>Específico</b></button>
+          <button class="m" aria-pressed="false" data-smart-panel="m"><span>M</span><b>Medible</b></button>
+          <button class="a" aria-pressed="false" data-smart-panel="a"><span>A</span><b>Alcanzable</b></button>
+          <button class="r" aria-pressed="false" data-smart-panel="r"><span>R</span><b>Relevante</b></button>
+          <button class="t" aria-pressed="false" data-smart-panel="t"><span>T</span><b>Temporalizado</b></button>
+        </div>
+        <article class="smart-panel" aria-live="polite">
+          <p class="draft-label" data-panel-kicker>Capa S</p>
+          <h3 data-panel-title>Específico</h3>
+          <p data-panel-copy>Un objetivo claro no deja margen a dobles interpretaciones. Precisa las acciones exactas que ocurrirán en el aula.</p>
+          <div class="quality-check"><span>Preguntas de control</span><strong data-panel-check>¿Quién?, ¿cuándo?, ¿dónde?, ¿qué? y ¿por qué?</strong></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="examples section-shell" id="ejemplos" data-section="ejemplos" aria-labelledby="examples-title">
+      <div class="section-intro compact">
+        <h2 id="examples-title">Lee el objetivo por capas</h2>
+        <p>Selecciona una frase destacada. La anotación explica qué criterio hace visible y por qué.</p>
+      </div>
+      <div class="example-switch" role="group" aria-label="Elegir ejemplo">
+        <button class="is-active" aria-pressed="true" data-example="sociales">Ciencias Sociales</button>
+        <button aria-pressed="false" data-example="ingles">Inglés</button>
+      </div>
+      <div class="objective-board">
+        <div class="objective-sentence" data-objective-sentence></div>
+        <aside class="phrase-note" aria-live="polite">
+          <span class="note-badge" data-note-letter>T</span>
+          <div><h3 data-note-title>Temporalizado</h3><p data-note-copy>“Al finalizar la clase” define el límite de la sesión.</p></div>
+        </aside>
+      </div>
+      <p class="tap-hint">Cada color es una capa del mismo plano. En pantallas táctiles, pulsa la frase para inspeccionarla.</p>
+    </section>
+
+    <section class="effective section-shell" aria-labelledby="effective-title">
+      <div class="section-intro compact">
+        <h2 id="effective-title">Antes de aprobar el plano, revisa tres condiciones</h2>
+        <p>Un objetivo puede contener las cinco letras y aun necesitar ajustes pedagógicos.</p>
+      </div>
+      <div class="pillars">
+        <details open>
+          <summary><span>Estudiante</span><b>¿Dice qué hará quien aprende?</b></summary>
+          <p>Expresa lo que niñas, niños y jóvenes sabrán o serán capaces de hacer; no lo que la persona docente va a explicar.</p>
+        </details>
+        <details>
+          <summary><span>Evidencia</span><b>¿Deja un rastro observable?</b></summary>
+          <p>Se fundamenta en producciones, desempeños o respuestas tangibles que permiten evaluar y retroalimentar sin castigo.</p>
+        </details>
+        <details>
+          <summary><span>Rigor</span><b>¿Propone el nivel cognitivo apropiado?</b></summary>
+          <p>Se deriva de metas nacionales como EBC y DBA y usa la Taxonomía de Bloom para escalar los procesos de pensamiento.</p>
+        </details>
+      </div>
+    </section>
+
+    <section class="time-section section-shell" id="tiempo" data-section="tiempo" aria-labelledby="time-title">
+      <div class="time-visual" aria-hidden="true">
+        <div class="clock-face"><span>70</span><small>aprendizaje activo</small></div>
+        <div class="time-line"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+      </div>
+      <div class="time-copy">
+        <h2 id="time-title">El tiempo de clase no se recupera. Se protege.</h2>
+        <p>Una meta clara funciona como un escudo: reduce la fricción operativa y reserva más minutos para la indagación, el aprendizaje activo y la metacognición.</p>
+        <div class="time-benefits">
+          <button data-benefit="0" class="is-active"><span>01</span>Elimina la improvisación operativa</button>
+          <button data-benefit="1"><span>02</span>Devuelve el protagonismo al estudiantado</button>
+          <button data-benefit="2"><span>03</span>Facilita instrucciones precisas</button>
+        </div>
+        <p class="benefit-detail" aria-live="polite">Con un foco cognitivo y una evidencia definidos, disminuyen las actividades de relleno y las explicaciones que dan vueltas.</p>
+      </div>
+    </section>
+
+    <section class="challenge section-shell blueprint" id="desafio" data-section="desafio" aria-labelledby="challenge-title">
+      <div class="section-intro compact">
+        <h2 id="challenge-title">Pon a prueba tu ojo de planeación</h2>
+        <p>Dos decisiones breves. Recibirás retroalimentación inmediata y podrás intentarlo otra vez.</p>
+      </div>
+      <div class="quiz" data-quiz>
+        <div class="quiz-progress" role="progressbar" aria-label="Progreso del desafío" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50"><span data-quiz-progress></span></div>
+        <p class="question-count" data-question-count>Pregunta 1 de 2</p>
+        <h3 data-question>Un Eco planeó: “Los estudiantes entenderán la fotosíntesis en la sesión de hoy”. ¿Cuál es el principal reto?</h3>
+        <div class="answers" data-answers></div>
+        <div class="feedback" data-feedback hidden role="status"></div>
+        <button class="next-question" data-next hidden>Siguiente pregunta <span aria-hidden="true">→</span></button>
+      </div>
+    </section>
+
+    <section class="closing section-shell" id="cierre" aria-labelledby="closing-title">
+      <div class="closing-copy">
+        <h2 id="closing-title">Tu plano está listo para pasar a la bitácora</h2>
+        <p>Haz una pausa y completa en Moodle la rutina de pensamiento visible. No necesitas responder aquí: lleva estas dos preguntas a tu Bitácora de Metacognición Digital.</p>
+      </div>
+      <div class="reflection-strip">
+        <article><span>Antes pensaba…</span><p>que redactar un objetivo de aprendizaje era solo una tarea técnica porque…</p></article>
+        <div class="reflection-arrow" aria-hidden="true">→</div>
+        <article><span>Ahora sé…</span><p>que un objetivo SMART es una herramienta de liderazgo que protege el tiempo porque…</p></article>
+      </div>
+      <a class="back-to-top" href="#inicio">Revisar mi recorrido <span aria-hidden="true">↑</span></a>
+    </section>
+  </main>
+
+  <footer>
+    <img src="docs/exclombia-blanco.png" alt="Enseña por Colombia" width="150" height="75">
+    <p>Planeación con propósito para que el aprendizaje suceda.</p>
+  </footer>
+</body>
+</html>
