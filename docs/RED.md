@@ -141,19 +141,19 @@
 
 ---
 
-### Pantalla 8: Cierre Metacognitivo (Project Zero de Harvard)
+### Pantalla 8: Cierre reflexivo y de aplicación
 
 * **Diseño Visual:** Notas adhesivas de colores pastel sobre un lienzo interactivo, modelando la disposición al aprendizaje y la normalización del error \[264, 453\].  
 * **Texto Principal:**  
     
-  > *"¡Excelente viaje, Eco\! Has completado la exploración de la estructura SMART. Ahora, haz una pausa y mira en tu propio espejo del aprendizaje \[78\]. Es momento de consolidar este conocimiento en tu **Bitácora de Metacognición Digital** en Moodle utilizando la siguiente rutina de pensamiento visible de Harvard (Project Zero):"*  
+  > *"¡Excelente viaje, Eco\! Has completado la exploración de la estructura SMART. Ahora, haz una pausa para reconocer cómo cambió tu comprensión y piensa en una clase próxima donde puedas aplicar lo aprendido:"*
     
 * **Rutina de Pensamiento Visible:**  
     
-  > **Rutina: "Antes pensaba... Ahora sé"** \[222\]  
+  > **Reflexión: "Antes pensaba... Ahora aplicaré"**
   >   
   1. **Antes pensaba** que redactar un objetivo de aprendizaje era solo una tarea técnica porque...  
-  2. **Ahora sé** que un Objetivo SMART es una herramienta de liderazgo que protege el tiempo de aprendizaje de mis estudiantes porque...
+  2. **Ahora aplicaré** un Objetivo SMART en mi aula para proteger el tiempo de aprendizaje mediante...
 
 ---
 
@@ -162,4 +162,3 @@
 2. **Pistas de Hover Inteligentes:** En la pantalla 4, usar colores diferenciados para cada sigla del acrónimo dentro del texto del objetivo (ej. verde para la S, azul para la T). Al pasar el cursor, el color debe intensificarse y abrir la tarjeta explicativa.  
 3. **Visualización Responsiva:** Mantener tipografías sans-serif de alta legibilidad, colores oscuros sobre fondos claros, y contrastes altos para garantizar que los materiales sean accesibles para todas y todos los EcoS en territorio, sin importar si acceden desde celular, tableta o computador \[85, 86, 242\].  
 4. **Botones de Navegación de Retorno:** Colocar siempre un botón visible en la esquina para regresar al "Tablero de Control Curricular", facilitando la exploración autónoma del Eco a su propio ritmo de aprendizaje \[100\].
-

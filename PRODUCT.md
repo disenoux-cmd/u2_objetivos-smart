@@ -24,7 +24,7 @@ The resource makes SMART criteria visible inside authentic classroom objectives 
 
 ## Operating Context
 
-The RED is embedded or linked from a self-directed Moodle course and can be hosted as a static site. The learner follows a guided but flexible route, can revisit previous concepts, receives immediate feedback, and completes metacognitive reflection in their external Moodle journal.
+The RED is embedded or linked from a self-directed Moodle course and can be hosted as a static site. The learner follows a guided but flexible route, can revisit previous concepts, receives immediate feedback, and closes by reflecting on what they learned and how they will apply it in the classroom.
 
 ## Capabilities and Constraints
 
